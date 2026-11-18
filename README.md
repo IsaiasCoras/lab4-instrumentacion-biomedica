@@ -21,7 +21,7 @@ La frecuencia nominal de muestreo es de 2048 muestras/s. La salida del DAC se ce
 
 ## Uso
 
-1. Abrir \`sEMG_Lab4_ESP32.ino\` en Arduino IDE.
+1. Abrir `sEMG_Lab4_ESP32.ino` en Arduino IDE.
 2. Seleccionar la placa ESP32 correspondiente (por ejemplo, **ESP32 Dev Module**).
 3. Seleccionar el puerto COM de la placa.
 4. Compilar y cargar el programa.
@@ -37,7 +37,7 @@ La alimentación del TL084 y el resto del circuito se realiza según el esquemá
 
 ## Alcance y limitación
 
-Este sketch genera una **señal sintética de prueba** con ruido limitado en banda y tres niveles de actividad. No contiene ni reconstruye las muestras originales del archivo \`semg.h\` del Laboratorio N.° 3 y no debe describirse como el firmware original o como una reproducción exacta de registros experimentales.
+Este sketch genera una **señal sintética de prueba** con ruido limitado en banda y tres niveles de actividad. No contiene ni reconstruye las muestras originales del archivo `semg.h` del Laboratorio N.° 3 y no debe describirse como el firmware original o como una reproducción exacta de registros experimentales.
 
 Los niveles de amplitud son parámetros de demostración ajustables en el código. Para reproducir los resultados originales del Laboratorio N.° 3 se necesitaría el archivo de muestras correspondiente.
 
